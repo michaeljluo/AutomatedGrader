@@ -1,0 +1,19 @@
+{ 
+	"deck": [
+		{"suit": "♦️", "rank": "4"},
+        {"suit": "♠️", "rank": "7"}, 
+        {"suit": "❤️", "rank": "J"}, 
+        {"suit": "♣️", "rank": "3"},
+		{"suit": "♦️", "rank": "5"}
+
+      ], 
+	"playerHand": [
+        {"suit": "❤️", "rank": "1"}
+	], 
+	"computerHand": [
+        {"suit": "♠️", "rank": "1"}
+	], 
+	"discardPile": [{"suit": "♦️", "rank": "2"}],
+	"nextPlay":{"suit": "♦️", "rank": "2"}
+}
+
