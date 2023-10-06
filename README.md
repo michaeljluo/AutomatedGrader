@@ -22,7 +22,7 @@ To use this automation script, follow these steps:
 1. Clone this repository to your local machine.
 
 ```bash
-git clone [https://github.com/yourusername/grading-automation.git](https://github.com/michaeljluo/AutomatedGrader.git)
+git clone https://github.com/michaeljluo/AutomatedGrader.git
 ```
 2. Create a .txt file in the project directory with a list of github usernames of the students (one username per line).
 
