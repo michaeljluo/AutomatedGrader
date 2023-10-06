@@ -26,9 +26,11 @@ git clone [https://github.com/yourusername/grading-automation.git](https://githu
 ```
 2. Create a .txt file in the project directory with a list of github usernames of the students (one username per line).
 
-3. Make a copy of the homework01 folder and modify the Python script, Bash scripts, and JSON scripts according to your program and grading requirements. 
+3. Use clonerepos.py to clone all of the students' repos to your machine.
 
-4. Run the Python script to create the terminal windows with preloaded scenarios (e.g. scenario 1 through 4). The python program takes 3 arguments: the homework folder name, the username of the github user, and the number of the scenario you wish to run.
+4. Make a copy of the homework01 folder and modify the Python script, Bash scripts, and JSON scripts according to your program and grading requirements. 
+
+5. Run the Python script to create the terminal windows with preloaded scenarios (e.g. scenario 1 through 4). The python program takes 3 arguments: the homework folder name, the username of the github user, and the number of the scenario you wish to run.
 
 ```bash
 python3 homework01.py homework01 github_user 1
