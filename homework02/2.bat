@@ -7,4 +7,3 @@ start "Terminal 3" cmd /k "echo 'Terminal 3: Command 3' && cd "..\..\%2\%2-%1" &
 
 
 
-start "" "file:\\\C:\Users\mjl82\AIT Grading\%2\%2-%1\test.svg"
