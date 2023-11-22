@@ -23,6 +23,11 @@ if sys.argv[3] == '1':
     batch_script = "1.bat"
     subprocess.Popen([batch_script, gitId, hwNum], shell=True)
 if sys.argv[3] == '2':
+    ahk = AHK(executable_path="C:/Program Files/AutoHotkey/AutoHotkeyU64.exe")
+    f = open("../close_terminals.ahk", "r")
+    if f.mode == "r":
+        ahk_script = f.read()
+    ahk.run_script(ahk_script, blocking=False)
     batch_script = "2.bat"
     subprocess.Popen([batch_script, gitId, hwNum], shell=True)
 if sys.argv[3] == '3':
