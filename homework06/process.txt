@@ -1,0 +1,20 @@
+misc
+
+functionality test
+	serve
+home has preloaded tasks
+nav bar
+can sort tasks
+	due-date, priority	
+can add new task
+	redirects to home
+modify url with sort query
+
+
+code check
+	print usages of readdir and readfile
+	print "method", "path", "query", "body"
+	print .get
+		need "/"
+	print .post
+		need "/add"
